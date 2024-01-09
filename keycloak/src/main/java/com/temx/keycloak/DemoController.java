@@ -14,6 +14,6 @@ public class DemoController {
 
     @GetMapping("/hello-2")
     public String hello2(){
-        return "Hello from Spring boot & Keycloak";
+        return "Hello from Spring boot & Keycloak - ADMIN";
     }
 }
